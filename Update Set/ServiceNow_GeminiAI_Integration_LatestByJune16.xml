@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-06-16 15:31:00">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>In this application I have integrated ServiceNow with Google Gemini AI to implement a AI Bot within ServiceNow.</description>
+<inserted/>
+<name>ServiceNow - GeminiAI Integration</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>6aa30927c36282105670564ed40131c1</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>ea233a8ac33202105670564ed4013141</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ask_geminiai_sys_class_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="u_ask_geminiai"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Class</column_label><comments/><create_roles/><default_value>javascript:current.getTableName();</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_class_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">sys_class_name</internal_type><mandatory>false</mandatory><max_length>80</max_length><name>u_ask_geminiai</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:55</sys_created_on><sys_id>f054c1a7c36282105670564ed4013105</sys_id><sys_name>Class</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_ask_geminiai_sys_class_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:55</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1909630696</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>22233a8ac33202105670564ed4013143</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f8690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Class</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0554c1a7e36282103e1bc0e9f285cf11</update_guid>
+<update_guid_history>0554c1a7e36282103e1bc0e9f285cf11:1909630696</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_db3d01a3c3a282105670564ed4013140</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>key</name><rest_message_function display_value="">b23d8d63c3a282105670564ed40131f1</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:42:57</sys_created_on><sys_id>db3d01a3c3a282105670564ed4013140</sys_id><sys_mod_count>0</sys_mod_count><sys_name>key</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_db3d01a3c3a282105670564ed4013140</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:42:57</sys_updated_on><value>[API Key]</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>-52318713</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>22233a8ac33202105670564ed4013146</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff81687de0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>key</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>82bd4d233aa28210b741ba6e02985ace</update_guid>
+<update_guid_history>82bd4d233aa28210b741ba6e02985ace:-52318713</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_a05481a7c36282105670564ed4013197</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Ask GeminiAI">2c5481a7c36282105670564ed4013193</application><filter/><name>Ask GeminiAIs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_ask_geminiai_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a05481a7c36282105670564ed4013197</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ask GeminiAIs</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_a05481a7c36282105670564ed4013197</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:53</sys_updated_on><table>u_ask_geminiai</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>1062324524</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>22233a8ac33202105670564ed4013149</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f0ef0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAIs</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>685481a754628210ac8788aa9056ff99</update_guid>
+<update_guid_history>685481a754628210ac8788aa9056ff99:1062324524</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_0154c1a7c36282105670564ed4013113</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_ask_geminiai">u_ask_geminiai</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>GEM</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:55</sys_created_on><sys_id>0154c1a7c36282105670564ed4013113</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GEM</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_number_0154c1a7c36282105670564ed4013113</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:55</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>1678407718</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>26233a8ac33202105670564ed4013145</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f9810000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>GEM</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>8554c1a712628210cafbac9a55c10334</update_guid>
+<update_guid_history>8554c1a712628210cafbac9a55c10334:1678407718</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_3e17cd6bc36282105670564ed40131d2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;ask_geminiAI&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint&gt;Ask Gemini AI about this question&lt;/hint&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Ask Gemini AI&lt;/name&gt;&lt;onclick&gt;checkForQuestion()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[//Client-side Script
+function checkForQuestion() {
+    //Fetching the Question for Script Include - 'AskGeminiAIUtils'
+    var questionForAI = g_form.getValue('u_ask_gemini');
+
+    //Confirming question before passing to Gemini
+    if (confirm('Please confirm your question:\n' + questionForAI)) {
+
+        //Callng Script Include - 'AskGeminiAIUtils'
+        var validateQuestion = new GlideAjax('AskGeminiAIUtils');
+        validateQuestion.addParam('sysparm_name', 'helpUserAskGeminiAI');
+        if (questionForAI) {
+            validateQuestion.addParam('sysparm_questionForAI', questionForAI);
+        }
+
+        validateQuestion.getXMLAnswer(getResponse);
+    }
+}
+
+function getResponse(response) {
+    //Populating Gemini Response field with response
+    g_form.setValue('u_gemini_response', response);
+    gsftSubmit(null, g_form.getFormElement(), 'ask_geminiAI');
+}
+
+//Server-side Script
+if (typeof window == 'undefined') {
+    ask_geminiAI_serverSide();
+}
+
+function ask_geminiAI_serverSide() {
+    current.update();
+    action.setRedirectURL(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-08 13:18:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3e17cd6bc36282105670564ed40131d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ask Gemini AI&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_3e17cd6bc36282105670564ed40131d2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-12 21:47:21&lt;/sys_updated_on&gt;&lt;table&gt;u_ask_geminiai&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-903680954</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>26233a8ac33202105670564ed4013148</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1900e6b751d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask Gemini AI</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>fcf2673855324210cb028119d65452d0</update_guid>
+<update_guid_history>fcf2673855324210cb028119d65452d0:-903680954,31a267bc853242100fc651f12d9dbbed:1598118955,2732273c853242106dbcbacfd906d4f8:1202111237,ac33b9c0483e061097f6d8e14a0f7adc:-903680954,1d037504873e0610a8d7ced950f810c3:1708829268,eaf035cc00fa06100885699621194869:1147890908,5220b1cccffa06106396461575e15169:1911877556,350a2deb3de282100aee03325a5ef7cc:-1142235392,f9c949eb8d6282105cb39be976200966:-1848945765,082885eb866282107d76e10a196e5ac3:-599214231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ask_geminiai_u_ask_gemini_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_ask_gemini" label="Ask Gemini" language="en" table="u_ask_geminiai"><sys_documentation action="INSERT_OR_UPDATE"><element>u_ask_gemini</element><help/><hint/><label>Ask Gemini</label><language>en</language><name>u_ask_geminiai</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:25</sys_created_on><sys_id>2d468d2bc36282105670564ed401319f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Ask Gemini</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ask_geminiai_u_ask_gemini_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-279679250</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>2a233a8ac33202105670564ed4013144</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c4510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Ask Gemini</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>79468d2b68628210982d99dd196385ef</update_guid>
+<update_guid_history>79468d2b68628210982d99dd196385ef:-279679250,79468d2b0962821073e6585e2e8181db:-279679250,21468d2bcd6282100aadc098b52535b2:2133117763</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_205481a7c36282105670564ed40131de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>205481a7c36282105670564ed40131de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai.u_ask_geminiai_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_ask_geminiai">605481a7c36282105670564ed40131db</sys_security_acl><sys_update_name>sys_security_acl_role_205481a7c36282105670564ed40131de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:54</sys_updated_on><sys_user_role display_value="u_ask_geminiai_user" name="u_ask_geminiai_user">6c5481a7c36282105670564ed4013175</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1517695057</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>2a233a8ac33202105670564ed4013147</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f29e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>u_ask_geminiai.u_ask_geminiai_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6c5481a7796282102e8e37a13cdc42df</update_guid>
+<update_guid_history>6c5481a7796282102e8e37a13cdc42df:-1517695057</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ask_geminiai_u_gemini_response</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_gemini_response" table="u_ask_geminiai"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Gemini Response</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_gemini_response</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100000000</max_length><name>u_ask_geminiai</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:25</sys_created_on><sys_id>29468d2bc36282105670564ed4013135</sys_id><sys_name>Gemini Response</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_ask_geminiai_u_gemini_response</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:26</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>630733761</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>2e233a8ac33202105670564ed4013143</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>190023878a80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Gemini Response</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>da775fcc90f246101af1388444d04d39</update_guid>
+<update_guid_history>da775fcc90f246101af1388444d04d39:630733761,0936dbcc49f24610193a911b7e9e5bd8:1866815550,75468d2bf46282106906d6abcd197cb8:630733761,e5468d2b0a628210002adfc72e66f6ac:1639687511</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_605481a7c36282105670564ed40131db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Default access control on u_ask_geminiai</description><local_or_existing>Local</local_or_existing><name>u_ask_geminiai</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>605481a7c36282105670564ed40131db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_605481a7c36282105670564ed40131db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:54</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1129082144</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>2e233a8ac33202105670564ed4013146</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f2800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>u_ask_geminiai</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>2c5481a75562821026014e188404dfdc</update_guid>
+<update_guid_history>2c5481a75562821026014e188404dfdc:1129082144</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_6c5481a7c36282105670564ed4013175</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_ask_geminiai_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:53</sys_created_on><sys_id>6c5481a7c36282105670564ed4013175</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_6c5481a7c36282105670564ed4013175</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:53</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>800392095</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>2e233a8ac33202105670564ed4013149</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0efae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>u_ask_geminiai_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>ec5481a77b628210df6f41d58b220279</update_guid>
+<update_guid_history>ec5481a77b628210df6f41d58b220279:800392095</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ask_geminiai__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Ask GeminiAI" language="en" table="u_ask_geminiai"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Ask GeminiAI</label><language>en</language><name>u_ask_geminiai</name><plural>Ask GeminiAIs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>705481a7c36282105670564ed40131ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ask GeminiAI</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ask_geminiai__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:54</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1489015969</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>62233a8ac33202105670564ed4013145</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f5730000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b454c1a783628210e954dc3527276501</update_guid>
+<update_guid_history>b454c1a783628210e954dc3527276501:1489015969</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d7098d6bc36282105670564ed40131fb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:22:33</sys_created_on><sys_id>d7098d6bc36282105670564ed40131fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AskGeminiAIUtils.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="AskGeminiAIUtils">1f098d6bc36282105670564ed40131f7</sys_security_acl><sys_update_name>sys_security_acl_role_d7098d6bc36282105670564ed40131fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:22:33</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>942815002</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>62233a8ac33202105670564ed4013148</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff803dcd10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>AskGeminiAIUtils</table>
+<target_name>AskGeminiAIUtils.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>93098d6be462821046e0a3b730181bfe</update_guid>
+<update_guid_history>93098d6be462821046e0a3b730181bfe:942815002</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ask_geminiai_sys_updated_by_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="sys_updated_by" label="Asked by" language="en" table="u_ask_geminiai"><sys_documentation action="INSERT_OR_UPDATE"><element>sys_updated_by</element><help/><hint/><label>Asked by</label><language>en</language><name>u_ask_geminiai</name><plural>Asked by</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>785481a7c36282105670564ed40131f3</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Asked by</sys_name><sys_package/><sys_policy/><sys_scope/><sys_update_name>sys_documentation_u_ask_geminiai_sys_updated_by_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-66684056</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>66233a8ac33202105670564ed4013144</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c78d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Asked by</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8646cd2b74628210a5464cbb0585294e</update_guid>
+<update_guid_history>8646cd2b74628210a5464cbb0585294e:-66684056,8e46cd2bbd62821044b1772f0513523a:-66684056,4a46cd2be262821042bd94df346f8b32:1509426653</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_205481a7c36282105670564ed401319f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>205481a7c36282105670564ed401319f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai.u_ask_geminiai_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_ask_geminiai">605481a7c36282105670564ed401319b</sys_security_acl><sys_update_name>sys_security_acl_role_205481a7c36282105670564ed401319f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:54</sys_updated_on><sys_user_role display_value="u_ask_geminiai_user" name="u_ask_geminiai_user">6c5481a7c36282105670564ed4013175</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1603134652</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>66233a8ac33202105670564ed4013147</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f2270000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>u_ask_geminiai.u_ask_geminiai_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ec5481a728628210976abf3e0cfc56a1</update_guid>
+<update_guid_history>ec5481a728628210976abf3e0cfc56a1:-1603134652</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ask_geminiai_u_ask_gemini</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_ask_gemini" table="u_ask_geminiai"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Ask Gemini</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_ask_gemini</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>1000</max_length><name>u_ask_geminiai</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:25</sys_created_on><sys_id>ad468d2bc36282105670564ed4013139</sys_id><sys_name>Ask Gemini</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_ask_geminiai_u_ask_gemini</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:26</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1799605407</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>6a233a8ac33202105670564ed4013143</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c3d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Ask Gemini</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>31468d2be8628210e239e61d5b27ebd7</update_guid>
+<update_guid_history>31468d2be8628210e239e61d5b27ebd7:-1799605407,29468d2b236282109ee71a11fe7b78ae:2089267753</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_605481a7c36282105670564ed401319b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Default access control on u_ask_geminiai</description><local_or_existing>Local</local_or_existing><name>u_ask_geminiai</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:53</sys_created_on><sys_id>605481a7c36282105670564ed401319b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_605481a7c36282105670564ed401319b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1365813392</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>6a233a8ac33202105670564ed4013146</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f1270000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>u_ask_geminiai</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>e85481a70d628210d777afd796bad19d</update_guid>
+<update_guid_history>e85481a70d628210d777afd796bad19d:-1365813392</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_e3a48d67c36282105670564ed4013169</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="e3a48d67c36282105670564ed4013169" sys_domain="global" table="u_ask_geminiai" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:03:03</sys_created_on><sys_id>0dc71380c33646105670564ed40131b6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ask_geminiai" sys_domain="global" view="Default view">e3a48d67c36282105670564ed4013169</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:03:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_ask_gemini</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:03:03</sys_created_on><sys_id>91c71380c33646105670564ed40131b7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ask_geminiai" sys_domain="global" view="Default view">e3a48d67c36282105670564ed4013169</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:03:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_gemini_response</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:03:03</sys_created_on><sys_id>19c71380c33646105670564ed40131b7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ask_geminiai" sys_domain="global" view="Default view">e3a48d67c36282105670564ed4013169</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:03:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_ask_geminiai</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:03:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e3a48d67c36282105670564ed4013169</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_e3a48d67c36282105670564ed4013169</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:03:28</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>810574543</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>6a233a8ac33202105670564ed4013149</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>190023ebae50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>ddc71380f4364610ad4cddcab5e711b8</update_guid>
+<update_guid_history>ddc71380f4364610ad4cddcab5e711b8:810574543,d07653003936461091659aa4055992a7:42142550,8646cd2b49628210ae6cab2965ae9c5b:810574543,23a44da719628210a0421d79bd604df2:-599837752,eba48d670f628210670c13952d468b6c:-1633672761</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ask_geminiai_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_ask_geminiai"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;true&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_ask_geminiai&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-08 13:01:54&lt;/sys_created_on&gt;&lt;sys_id&gt;305481a7c36282105670564ed40131e7&lt;/sys_id&gt;&lt;sys_name&gt;u_ask_geminiai&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ask_geminiai_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-10 12:57:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>725301121</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>6e233a8ac33202105670564ed4013142</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19002396b700000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>90765300d43646106edc35d88ea6f898</update_guid>
+<update_guid_history>90765300d43646106edc35d88ea6f898:725301121,b85481a76e628210fd6e56cb8cf1dcff:-337095178</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_b23d8d63c3a282105670564ed40131f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>{&#13;
+"contents": [&#13;
+{&#13;
+"parts": [&#13;
+{&#13;
+"text": "${prompt}"&#13;
+}&#13;
+]&#13;
+}&#13;
+]&#13;
+}</content><function_name>GeminiAIPost</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>GeminiAI [ GeminiAIPost ]</qualified_name><rest_endpoint>https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=[API Key]</rest_endpoint><rest_message display_value="GeminiAI">56ec85afc36282105670564ed4013108</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:42:57</sys_created_on><sys_id>b23d8d63c3a282105670564ed40131f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GeminiAIPost</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_b23d8d63c3a282105670564ed40131f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:42:57</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1836519055</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>6e233a8ac33202105670564ed4013145</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff81687f30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>GeminiAIPost</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>8abd89a3eea28210218d1187d1c29e93</update_guid>
+<update_guid_history>8abd89a3eea28210218d1187d1c29e93:1836519055</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_ask_geminiai_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_ask_geminiai" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_number</element><list_id display_value="u_ask_geminiai" element="NULL" name="u_ask_geminiai" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6154c533c366c2105670564ed40131f8</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-09 07:40:26</sys_created_on><sys_id>e154c533c366c2105670564ed40131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-09 07:40:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_ask_gemini</element><list_id display_value="u_ask_geminiai" element="NULL" name="u_ask_geminiai" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6154c533c366c2105670564ed40131f8</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-09 07:40:26</sys_created_on><sys_id>6954c533c366c2105670564ed40131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-09 07:40:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_gemini_response</element><list_id display_value="u_ask_geminiai" element="NULL" name="u_ask_geminiai" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6154c533c366c2105670564ed40131f8</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-09 07:40:26</sys_created_on><sys_id>e954c533c366c2105670564ed40131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-09 07:40:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="u_ask_geminiai" element="NULL" name="u_ask_geminiai" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6154c533c366c2105670564ed40131f8</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-09 07:40:26</sys_created_on><sys_id>6d54c533c366c2105670564ed40131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-09 07:40:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_by</element><list_id display_value="u_ask_geminiai" element="NULL" name="u_ask_geminiai" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6154c533c366c2105670564ed40131f8</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-09 07:40:26</sys_created_on><sys_id>ed54c533c366c2105670564ed40131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-09 07:40:26</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_ask_geminiai</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-09 07:40:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6154c533c366c2105670564ed40131f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_ask_geminiai_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-09 07:40:26</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-720378592</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>6e233a8ac33202105670564ed4013148</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ffbf1013c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>2d54c5335a66c2104fa0b44fc2553bfc</update_guid>
+<update_guid_history>2d54c5335a66c2104fa0b44fc2553bfc:-720378592,2c74c5a72b628210502c73d58a1db628:191253847</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ask_geminiai_sys_created_on_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="sys_created_on" label="Asked On" language="en" table="u_ask_geminiai"><sys_documentation action="INSERT_OR_UPDATE"><element>sys_created_on</element><help/><hint/><label>Asked On</label><language>en</language><name>u_ask_geminiai</name><plural>Asked Ons</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>745481a7c36282105670564ed40131f7</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Asked On</sys_name><sys_package/><sys_policy/><sys_scope/><sys_update_name>sys_documentation_u_ask_geminiai_sys_created_on_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1940212991</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>a2233a8ac33202105670564ed4013144</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c5710000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Asked On</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b946cd2b8b6282104a6802a8566bdb13</update_guid>
+<update_guid_history>b946cd2b8b6282104a6802a8566bdb13:1940212991,7946cd2bcf628210ec0d448e5f5de00c:1940212991,3546cd2bfc628210f4a63e7fbb2da004:1274352665</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_645481a7c36282105670564ed40131a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Default access control on u_ask_geminiai</description><local_or_existing>Local</local_or_existing><name>u_ask_geminiai</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>645481a7c36282105670564ed40131a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_645481a7c36282105670564ed40131a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:54</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1935773020</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>a2233a8ac33202105670564ed4013147</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f2480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>u_ask_geminiai</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>205481a725628210a11ce59424b8f1a5</update_guid>
+<update_guid_history>205481a725628210a11ce59424b8f1a5:-1935773020</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ask_geminiai_sys_updated_by</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_updated_by" table="u_ask_geminiai"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Asked by</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_updated_by</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_ask_geminiai</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>745481a7c36282105670564ed40131f3</sys_id><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>387843647</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>a6233a8ac33202105670564ed4013143</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c7400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Asked by</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8a46cd2b0a628210f275744157d3a839</update_guid>
+<update_guid_history>8a46cd2b0a628210f275744157d3a839:387843647,0646cd2bbf6282106d088340a48cbb30:1711312380,fd46cd2b44628210f4d654da7504df2b:-1462539971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_1f098d6bc36282105670564ed40131f7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description/><local_or_existing>Local</local_or_existing><name>AskGeminiAIUtils</name><operation display_value="execute">execute</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:22:33</sys_created_on><sys_id>1f098d6bc36282105670564ed40131f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AskGeminiAIUtils</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_1f098d6bc36282105670564ed40131f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:22:33</sys_updated_on><type display_value="client_callable_script_include">client_callable_script_include</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2073802950</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>a6233a8ac33202105670564ed4013146</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff803db440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>AskGeminiAIUtils</table>
+<target_name>AskGeminiAIUtils</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>53098d6bd8628210f4e595a816fcbdfa</update_guid>
+<update_guid_history>53098d6bd8628210f4e595a816fcbdfa:2073802950</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_4a46cd2bc36282105670564ed401314f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Additional Details" section_id="4a46cd2bc36282105670564ed401314f" sys_domain="global" table="u_ask_geminiai" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_on</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:27</sys_created_on><sys_id>8a46cd2bc36282105670564ed401315d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Additional Details" display_value="Additional Details" name="u_ask_geminiai" sys_domain="global" view="Default view">4a46cd2bc36282105670564ed401314f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:27</sys_created_on><sys_id>0246cd2bc36282105670564ed401315e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Additional Details" display_value="Additional Details" name="u_ask_geminiai" sys_domain="global" view="Default view">4a46cd2bc36282105670564ed401314f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_updated_by</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:27</sys_created_on><sys_id>8646cd2bc36282105670564ed401315e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Additional Details" display_value="Additional Details" name="u_ask_geminiai" sys_domain="global" view="Default view">4a46cd2bc36282105670564ed401314f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Additional Details</caption><header>false</header><name>u_ask_geminiai</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4a46cd2bc36282105670564ed401314f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_4a46cd2bc36282105670564ed401314f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>828835439</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>a6233a8ac33202105670564ed4013149</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c9640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>0e46cd2bfe62821004dd20c9850bb15f</update_guid>
+<update_guid_history>0e46cd2bfe62821004dd20c9850bb15f:828835439</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_fa148167c36282105670564ed4013194</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>true</is_extendable><label>Ask Geminiai</label><live_feed_enabled>false</live_feed_enabled><name>u_ask_geminiai</name><number_ref display_value="GEM">0154c1a7c36282105670564ed4013113</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:53</sys_created_on><sys_id>fa148167c36282105670564ed4013194</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Ask Geminiai</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_fa148167c36282105670564ed4013194</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:55</sys_updated_on><update_access>false</update_access><user_role display_value="u_ask_geminiai_user" name="u_ask_geminiai_user">6c5481a7c36282105670564ed4013175</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1023886431</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>aa233a8ac33202105670564ed4013142</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f8ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask Geminiai</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>4554c1a79962821041462b9473db0824</update_guid>
+<update_guid_history>4554c1a79962821041462b9473db0824:-1023886431,3054c1a748628210fa6bc898b6680a03:-1155334840</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_822d8d63c3a282105670564ed40131eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>GeminiAI [ Default GET ]</qualified_name><rest_endpoint>https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent</rest_endpoint><rest_message display_value="GeminiAI">56ec85afc36282105670564ed4013108</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:40:30</sys_created_on><sys_id>822d8d63c3a282105670564ed40131eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_822d8d63c3a282105670564ed40131eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:40:30</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1090914722</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>aa233a8ac33202105670564ed4013145</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff8144a500000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>422d8d632ba28210178e6c673b7bc6ed</update_guid>
+<update_guid_history>422d8d632ba28210178e6c673b7bc6ed:1090914722</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_form_sections_c246cd2bc36282105670564ed4013150</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="c246cd2bc36282105670564ed4013150" sys_domain="global" table="u_ask_geminiai" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0e46cd2bc36282105670564ed4013153</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="u_ask_geminiai" name="u_ask_geminiai" sys_domain="global" view="Default view">c246cd2bc36282105670564ed4013150</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="u_ask_geminiai" sys_domain="global" view="Default view">e3a48d67c36282105670564ed4013169</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0a46cd2bc36282105670564ed4013154</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="u_ask_geminiai" name="u_ask_geminiai" sys_domain="global" view="Default view">c246cd2bc36282105670564ed4013150</sys_ui_form><sys_ui_section caption="Additional Details" display_value="Additional Details" name="u_ask_geminiai" sys_domain="global" view="Default view">4a46cd2bc36282105670564ed401314f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>u_ask_geminiai</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c246cd2bc36282105670564ed4013150</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_form_sections_c246cd2bc36282105670564ed4013150</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+<payload_hash>-972464399</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>aa233a8ac33202105670564ed4013148</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c8f60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI</target_name>
+<type>Form Sections</type>
+<update_domain>global</update_domain>
+<update_guid>8e46cd2b1b628210552f66f2a5751955</update_guid>
+<update_guid_history>8e46cd2b1b628210552f66f2a5751955:-972464399,4646cd2bc26282107198f2b7354d7c52:7990824</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ask_geminiai_u_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_number" label="Ask Number" language="en" table="u_ask_geminiai"><sys_documentation action="INSERT_OR_UPDATE"><element>u_number</element><help/><hint/><label>Ask Number</label><language>en</language><name>u_ask_geminiai</name><plural>Ask Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:55</sys_created_on><sys_id>4554c1a7c36282105670564ed4013129</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Ask Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ask_geminiai_u_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:27</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>431931919</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>ae233a8ac33202105670564ed4013144</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c6910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Ask Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>7546cd2b7d62821096ac29fb4429dc2a</update_guid>
+<update_guid_history>7546cd2b7d62821096ac29fb4429dc2a:431931919,7d46cd2bfa62821098d246300f6f0822:431931919,0954c1a71e62821024aa4db79ce9d532:1219708651</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_305481a7c36282105670564ed40131e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>305481a7c36282105670564ed40131e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai.u_ask_geminiai_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_ask_geminiai">605481a7c36282105670564ed40131e1</sys_security_acl><sys_update_name>sys_security_acl_role_305481a7c36282105670564ed40131e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:54</sys_updated_on><sys_user_role display_value="u_ask_geminiai_user" name="u_ask_geminiai_user">6c5481a7c36282105670564ed4013175</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>714018689</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>ae233a8ac33202105670564ed4013147</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f2de0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>u_ask_geminiai.u_ask_geminiai_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>7c5481a70262821077a81e06acb9d9e5</update_guid>
+<update_guid_history>7c5481a70262821077a81e06acb9d9e5:714018689</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ask_geminiai_sys_created_on</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_created_on" table="u_ask_geminiai"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Asked On</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_created_on</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">glide_date_time</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_ask_geminiai</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>705481a7c36282105670564ed40131f7</sys_id><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:26</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-2015961323</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>e2233a8ac33202105670564ed4013143</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c5170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Asked On</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7546cd2bc0628210a0afb85a647d1d0b</update_guid>
+<update_guid_history>7546cd2bc0628210a0afb85a647d1d0b:-2015961323,39468d2bab628210d6db6f05a354d2f5:449145840,f1468d2bf76282107743cbc74aa7d6f1:-1934997047</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_45684debc36282105670564ed4013150</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.AskGeminiAIUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;This script include is created for the Application - "Ask Gemini AI" to integrate ServiceNow with Google Gemini AI.&lt;/description&gt;&lt;name&gt;AskGeminiAIUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AskGeminiAIUtils = Class.create();
+AskGeminiAIUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    //Calling the function through the UI Action - 'Ask Gemini AI' on the table 'Ask GeminiAI'
+    helpUserAskGeminiAI: function() {
+		//Fetching the question from the UI Action
+        var questionForAI = this.getParameter('sysparm_questionForAI');
+		
+		//Framing the suitable question prompt for Gemini
+        var content = "I want to know about the following question: ";
+        if (questionForAI) {
+            content += "Question: " + questionForAI + "? ";
+        }
+        content += "Please provide precise explanations in multiple paragraphs and number points";
+
+		//Retrieving answer from Gemini
+        var geminiResponse = this.getResponse(content);
+        if (geminiResponse) {
+            return geminiResponse;
+        } else {
+			// Gemini Response Invalid Question
+            return "I didn't understand your question. Please rephrase it for me once again.";
+        }
+    },
+	//Utilizing Outbound REST Message
+    getResponse: function(content) {
+
+        var answer = undefined;
+        try {
+			//Providing parameteers for Gemini
+            var restMessage = new sn_ws.RESTMessageV2('GeminiAI', 'GeminiAIPost');
+            restMessage.setStringParameterNoEscape('prompt', content);
+            restMessage.setStringParameterNoEscape('max_tokens', 400);
+            restMessage.setStringParameterNoEscape('temperature', 0);
+
+			//Collecting Response from Gemini
+            var response = restMessage.execute();
+            var responseBody = response.getBody();
+            gs.info("Question: " + content);
+            gs.info("GeminiAI Response: " + JSON.stringify(responseBody));
+            var http_statusCode = response.getStatusCode();
+            gs.info("GeminiAI Request Status Code: " + http_statusCode);
+			//Parsing JSON response to extract the answer
+            var responseObj = JSON.parse(responseBody);
+            if (http_statusCode == 200) {
+                answer = responseObj.candidates[0].content.parts[0].text;
+            }
+
+        } catch (ex) {
+            var message = ex.message;
+        }
+        return answer;
+    },
+    type: 'AskGeminiAIUtils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-08 13:22:32&lt;/sys_created_on&gt;&lt;sys_id&gt;45684debc36282105670564ed4013150&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;AskGeminiAIUtils&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_45684debc36282105670564ed4013150&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-10 05:50:19&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1377201224</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>e2233a8ac33202105670564ed4013146</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19000b28c3b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>AskGeminiAIUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>56b439840f3e06103b3f0fbece2118fb</update_guid>
+<update_guid_history>56b439840f3e06103b3f0fbece2118fb:1377201224,9045e9eba1e28210129b24f6ec968c14:657470064,9044e9af42e282103f6a5514ad2217ef:-748126207,2ec1a9ebd1e28210ab986903c3681eea:-1717347022,646125ab85e2821066bf39144192c12f:-104755464,e61121abfee2821079747bc40f6a0385:-655890536,3af3d5abfca2821099b3713318cec7af:-1494476826,fd735da333a2821027ea90f75d830f90:2058607922,707155e742a28210c935fc094d16ef0e:2072725824,bb0e05af3262821070e38c74c7b758c0:890099851,df09892f5d628210afc185d9d943eb30:1047912562</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_sys_dictionary_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="sys_dictionary" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Dictionary Entry - Default view" name="sys_dictionary" related_list="NULL" sys_domain="global" view="Default view">e6679740c33646105670564ed40131fe</list_id><order_by/><position>0</position><related_list>REL:a403d812eb321100d4360c505206fe52</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:01:31</sys_created_on><sys_id>2e679740c33646105670564ed40131ff</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:01:31</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Dictionary Entry - Default view" name="sys_dictionary" related_list="NULL" sys_domain="global" view="Default view">e6679740c33646105670564ed40131fe</list_id><order_by/><position>1</position><related_list>REL:9355cd9b0a000704053ea63b163e74b9</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:01:31</sys_created_on><sys_id>2667d740c33646105670564ed4013100</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:01:31</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Dictionary Entry - Default view" name="sys_dictionary" related_list="NULL" sys_domain="global" view="Default view">e6679740c33646105670564ed40131fe</list_id><order_by/><position>2</position><related_list>sys_schema_attribute_m2m.schema</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:01:31</sys_created_on><sys_id>2a67d740c33646105670564ed4013100</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:01:31</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Dictionary Entry - Default view" name="sys_dictionary" related_list="NULL" sys_domain="global" view="Default view">e6679740c33646105670564ed40131fe</list_id><order_by/><position>3</position><related_list>REL:936d24940a0007040df60be53657a3db</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:01:31</sys_created_on><sys_id>2e67d740c33646105670564ed4013100</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:01:31</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Dictionary Entry - Default view" name="sys_dictionary" related_list="NULL" sys_domain="global" view="Default view">e6679740c33646105670564ed40131fe</list_id><order_by/><position>4</position><related_list>REL:aa6e720d0a0a0b8c000f785922ec5f96</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:01:31</sys_created_on><sys_id>2267d740c33646105670564ed4013101</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:01:31</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Dictionary Entry - Default view" name="sys_dictionary" related_list="NULL" sys_domain="global" view="Default view">e6679740c33646105670564ed40131fe</list_id><order_by/><position>5</position><related_list>REL:67bdac52374010008687ddb1967334ee</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:01:31</sys_created_on><sys_id>2667d740c33646105670564ed4013101</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:01:31</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Dictionary Entry - Default view</calculated_name><filter/><name>sys_dictionary</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 13:01:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e6679740c33646105670564ed40131fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dictionary Entry - Default view</sys_name><sys_package display_value="Tables and Columns" source="com.glide.tables_and_columns">0b0da15a8d30021087de63ac7f1f00c0</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_related_sys_dictionary_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 13:01:31</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>541309506</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>e2233a8ac33202105670564ed4013149</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>190023d50b30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>sys_dictionary</table>
+<target_name>Dictionary Entry</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>6e67d74060364610592af78de39ac902</update_guid>
+<update_guid_history>6e67d74060364610592af78de39ac902:541309506,ea675300fd36461075e62e21c6752dd5:-1581275964</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_285481a7c36282105670564ed401318f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Ask GeminiAI">ec5481a7c36282105670564ed401317e</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Ask GeminiAIs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_ask_geminiai</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_ask_geminiai_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>285481a7c36282105670564ed401318f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ask GeminiAIs</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_285481a7c36282105670564ed401318f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:53</sys_updated_on><timeline_page/><title>Ask GeminiAIs</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1384473960</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>e6233a8ac33202105670564ed4013142</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f0800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAIs</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>245481a742628210afaaebaeeb691992</update_guid>
+<update_guid_history>245481a742628210afaaebaeeb691992:-1384473960</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_56ec85afc36282105670564ed4013108</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>public</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>This Rest Message is used for the integration between ServiceNow and GeminiAI</description><name>GeminiAI</name><oauth2_profile/><protocol_name/><rest_endpoint>https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:40:30</sys_created_on><sys_id>56ec85afc36282105670564ed4013108</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GeminiAI</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_56ec85afc36282105670564ed4013108</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:40:30</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>-1679722316</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>e6233a8ac33202105670564ed4013145</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff8144a6c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>GeminiAI</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>0e2d8d63c4a28210109bf707f2f221ee</update_guid>
+<update_guid_history>0e2d8d63c4a28210109bf707f2f221ee:-1679722316</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_2c5481a7c36282105670564ed4013193</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Ask GeminiAI</name><order/><roles>u_ask_geminiai_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c5481a7c36282105670564ed4013193</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ask GeminiAI</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_2c5481a7c36282105670564ed4013193</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:53</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>975526798</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>e6233a8ac33202105670564ed4013148</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f0b80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>Ask GeminiAI</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>6c5481a7ef628210b5c834cce4b46295</update_guid>
+<update_guid_history>6c5481a7ef628210b5c834cce4b46295:975526798</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_ask_geminiai_u_gemini_response_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_gemini_response" label="Gemini Response" language="en" table="u_ask_geminiai"><sys_documentation action="INSERT_OR_UPDATE"><element>u_gemini_response</element><help/><hint/><label>Gemini Response</label><language>en</language><name>u_ask_geminiai</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:10:25</sys_created_on><sys_id>29468d2bc36282105670564ed4013137</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Gemini Response</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_ask_geminiai_u_gemini_response_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:10:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-546914220</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>ea233a8ac33202105670564ed4013144</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c3870000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Gemini Response</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>79468d2ba262821052a95d349bc1fed1</update_guid>
+<update_guid_history>79468d2ba262821052a95d349bc1fed1:-546914220,39468d2b4562821008d44e59a692f1bd:-546914220,25468d2b816282100065a071f61f56b0:1080340295</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_245481a7c36282105670564ed40131a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>245481a7c36282105670564ed40131a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai.u_ask_geminiai_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_ask_geminiai">645481a7c36282105670564ed40131a3</sys_security_acl><sys_update_name>sys_security_acl_role_245481a7c36282105670564ed40131a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:54</sys_updated_on><sys_user_role display_value="u_ask_geminiai_user" name="u_ask_geminiai_user">6c5481a7c36282105670564ed4013175</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1453521353</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>ea233a8ac33202105670564ed4013147</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f2640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>u_ask_geminiai.u_ask_geminiai_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6c5481a702628210296fde4eaf4f67d9</update_guid>
+<update_guid_history>6c5481a702628210296fde4eaf4f67d9:-1453521353</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_ec5481a7c36282105670564ed401317e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Ask GeminiAI</name><order>100</order><roles>u_ask_geminiai_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ec5481a7c36282105670564ed401317e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>GeminiAI</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_ec5481a7c36282105670564ed401317e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 05:40:29</sys_updated_on><title>GeminiAI</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-1263444716</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>ee233a8ac33202105670564ed4013141</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19000a98a6d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table/>
+<target_name>GeminiAI</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>0e723980b73e06108401c55f078ff963</update_guid>
+<update_guid_history>0e723980b73e06108401c55f078ff963:-1263444716,a05481a76b628210ab76a0622529ca8e:1080619316</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_ask_geminiai_u_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_number" table="u_ask_geminiai"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;ignore_filter_on_new=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Ask Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:global.getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_ask_geminiai&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-08 13:01:55&lt;/sys_created_on&gt;&lt;sys_id&gt;0154c1a7c36282105670564ed4013126&lt;/sys_id&gt;&lt;sys_name&gt;Ask Number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_ask_geminiai_u_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-08 13:10:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2438237</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>ee233a8ac33202105670564ed4013143</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f8c6420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>Ask GeminiAI.Ask Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>f546cd2b806282105e8ba7dd8b7e7121</update_guid>
+<update_guid_history>f546cd2b806282105e8ba7dd8b7e7121:2438237,7d46cd2be8628210a1fd7739384ab518:480463439,0d54c1a73c628210d3eb5101c8448130:1640081800</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_605481a7c36282105670564ed40131e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Default access control on u_ask_geminiai</description><local_or_existing>Local</local_or_existing><name>u_ask_geminiai</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-08 13:01:54</sys_created_on><sys_id>605481a7c36282105670564ed40131e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ask_geminiai</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_605481a7c36282105670564ed40131e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-08 13:01:54</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1480416050</payload_hash>
+<remote_update_set display_value="ServiceNow - GeminiAI Integration">ea233a8ac33202105670564ed4013141</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-16 15:30:59</sys_created_on>
+<sys_id>ee233a8ac33202105670564ed4013146</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ff7f0f2c00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-16 15:30:59</sys_updated_on>
+<table>u_ask_geminiai</table>
+<target_name>u_ask_geminiai</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3c5481a7ce628210fb13f324a9916ce2</update_guid>
+<update_guid_history>3c5481a7ce628210fb13f324a9916ce2:-1480416050</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
